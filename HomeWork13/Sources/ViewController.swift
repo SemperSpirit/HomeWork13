@@ -102,7 +102,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         guard let selectedModel = arrayOfSettings[indexPath.section][indexPath.row] as? Model else { return }
-           
+            let viewController = DetailViewController()
+            viewController.model = selectedModel
+            navigationController?.pushViewController(viewController, animated: true)
         
         let section = indexPath.section
         let row = indexPath.row
