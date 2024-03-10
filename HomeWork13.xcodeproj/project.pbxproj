@@ -14,6 +14,7 @@
 		72B1EC522B9DE6AC00D2F985 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72B1EC502B9DE6AC00D2F985 /* LaunchScreen.storyboard */; };
 		72B1EC5F2B9DE98A00D2F985 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B1EC5E2B9DE98A00D2F985 /* Model.swift */; };
 		72B1EC612B9DEB9800D2F985 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B1EC602B9DEB9800D2F985 /* SettingTableViewCell.swift */; };
+		72B1EC632B9DEC9700D2F985 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B1EC622B9DEC9700D2F985 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		72B1EC532B9DE6AC00D2F985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72B1EC5E2B9DE98A00D2F985 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		72B1EC602B9DEB9800D2F985 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
+		72B1EC622B9DEC9700D2F985 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				72B1EC5E2B9DE98A00D2F985 /* Model.swift */,
 				72B1EC492B9DE6AA00D2F985 /* ViewController.swift */,
 				72B1EC602B9DEB9800D2F985 /* SettingTableViewCell.swift */,
+				72B1EC622B9DEC9700D2F985 /* DetailViewController.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				72B1EC4A2B9DE6AA00D2F985 /* ViewController.swift in Sources */,
 				72B1EC612B9DEB9800D2F985 /* SettingTableViewCell.swift in Sources */,
 				72B1EC462B9DE6AA00D2F985 /* AppDelegate.swift in Sources */,
+				72B1EC632B9DEC9700D2F985 /* DetailViewController.swift in Sources */,
 				72B1EC482B9DE6AA00D2F985 /* SceneDelegate.swift in Sources */,
 				72B1EC5F2B9DE98A00D2F985 /* Model.swift in Sources */,
 			);
