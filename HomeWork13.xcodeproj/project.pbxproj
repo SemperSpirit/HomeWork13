@@ -12,6 +12,8 @@
 		72B1EC4A2B9DE6AA00D2F985 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B1EC492B9DE6AA00D2F985 /* ViewController.swift */; };
 		72B1EC4F2B9DE6AC00D2F985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72B1EC4E2B9DE6AC00D2F985 /* Assets.xcassets */; };
 		72B1EC522B9DE6AC00D2F985 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72B1EC502B9DE6AC00D2F985 /* LaunchScreen.storyboard */; };
+		72B1EC5F2B9DE98A00D2F985 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B1EC5E2B9DE98A00D2F985 /* Model.swift */; };
+		72B1EC612B9DEB9800D2F985 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B1EC602B9DEB9800D2F985 /* SettingTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		72B1EC4E2B9DE6AC00D2F985 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72B1EC512B9DE6AC00D2F985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72B1EC532B9DE6AC00D2F985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72B1EC5E2B9DE98A00D2F985 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		72B1EC602B9DEB9800D2F985 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,9 @@
 		72B1EC5D2B9DE76600D2F985 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				72B1EC5E2B9DE98A00D2F985 /* Model.swift */,
 				72B1EC492B9DE6AA00D2F985 /* ViewController.swift */,
+				72B1EC602B9DEB9800D2F985 /* SettingTableViewCell.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -175,8 +181,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				72B1EC4A2B9DE6AA00D2F985 /* ViewController.swift in Sources */,
+				72B1EC612B9DEB9800D2F985 /* SettingTableViewCell.swift in Sources */,
 				72B1EC462B9DE6AA00D2F985 /* AppDelegate.swift in Sources */,
 				72B1EC482B9DE6AA00D2F985 /* SceneDelegate.swift in Sources */,
+				72B1EC5F2B9DE98A00D2F985 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
