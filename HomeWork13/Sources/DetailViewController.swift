@@ -13,14 +13,14 @@ final class DetailViewController: UIViewController {
     
     var model: Model?
     
-    private let settingImageView: UIImageView = {
+    private lazy var settingImageView: UIImageView = {
         let imageView = UIImageView()
         imageView.contentMode = .scaleAspectFit
         imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
     }()
     
-    private let nameLabel: UILabel = {
+    private lazy var nameLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
@@ -30,15 +30,19 @@ final class DetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupUI()
+        setupHierarchy()
+        setupLayout()
         fillSettings()
     }
     
     // MARK: - Setup
-
-    private func setupUI() {
+    
+    private func setupHierarchy() {
         view.addSubview(settingImageView)
         view.addSubview(nameLabel)
+    }
+    
+    private func setupLayout() {
         
         NSLayoutConstraint.activate([
             settingImageView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
@@ -52,9 +56,9 @@ final class DetailViewController: UIViewController {
         ])
     }
     
-    private func fillSettings() {
+    func fillSettings() {
         guard let model = model else { return }
-        settingImageView.image = UIImage(named: model.imageName)
+        settingImageView.image = UIImage(named: model.systemName)
         nameLabel.text = model.name
     }
 }
